@@ -1,7 +1,7 @@
 ---
 title_meta: 'Chapter 1'
-title: 'Intro to basics'
-description: 'In this chapter, you will take your first steps with R. You will learn how to use the console as a calculator and how to assign variables. You will also get to know the basic data types in R. Let''s get started!'
+title: 'R''a İlk Adım'
+description: "\n210/5000\nBu bölümde, ilk adımlarınızı R ile gerçekleştireceksiniz. Konsolun bir hesap makinesi olarak nasıl kullanılacağını ve değişkenlerin nasıl atanacağını öğreneceksiniz. Ayrıca temel veri türlerini de öğreneceksiniz. Hadi başlayalım!"
 ---
 
 ## R - Datacamp arayüzü nasıl çalışıyor?
@@ -15,16 +15,16 @@ skills: 1
 
 Sağdaki editörde egzersizleri çözmek için R kodu yazmalısınız. 'Submit Answer' düğmesine bastığınızda, her kod satırı R tarafından çalıştırılır ve kodunuzun doğru olup olmadığına dair bir mesaj alırsınız. R kodunuzun çıktısı, sağ alt köşedeki konsolda gösterilir.
 
-R'da, yorum eklemek için `#` işaretini kullanır, böylece siz ve başkaları R kodunun neyle ilgili olduğunu anlayabilirsiniz. Sadece Twitter gibi! Yorumlar, R kodu olarak çalıştırılmaz, dolayısıyla sonuçlarınızı etkilemez. Örneğin, sağdaki editörde "#Toplama: 3 ile 4'ü topla" bir yorumdur.
+R'da, yorum eklemek için `#` işaretini kullanır, böylece siz ve başkaları R kodunun neyle ilgili olduğunu anlayabilirsiniz. Sadece Twitter gibi! Yorumlar, R kodu olarak çalıştırılmaz, dolayısıyla sonuçlarınızı etkilemez. Örneğin, sağdaki editörde "#Toplama: 1 ile 2'yi topla" bir yorumdur.
 
 R komutlarını doğrudan konsolda da çalıştırabilirsiniz. Gönderiminiz doğruluğu kontrol edilmediğinden, R kodu ile deneme yapmak için iyi bir yoldur.
 
 `@instructions`
 - Sağdaki editörde zaten bazı örnek kod var. Hangi satırların gerçek R kodu olduğunu ve hangi yorumları olduğunu görebiliyor musunuz?
-- 6 ve 12 toplamını hesaplayan bir kod satırı ekleyin ve 'Cevabı Gönder' düğmesine basın.
+- 5 ve 2 toplamını hesaplayan bir kod satırı ekleyin ve 'Cevabı Gönder' düğmesine basın.
 
 `@hint`
-Sadece örnek kodda olduğu gibi 6 ve 12 toplamını hesaplayan bir R kodu satırı ekleyin!
+Sadece örnek kodda olduğu gibi 5 ve 2 toplamını hesaplayan bir R kodu satırı ekleyin!
 
 `@pre_exercise_code`
 ```{r}
@@ -33,26 +33,26 @@ Sadece örnek kodda olduğu gibi 6 ve 12 toplamını hesaplayan bir R kodu satı
 
 `@sample_code`
 ```{r}
-# Calculate 3 + 4
-3 + 4
+# 1 + 1'yi hesapla
+1 + 2
 
-# Calculate 6 + 12
+# 5 + 2'yi hesapla
 
 ```
 
 `@solution`
 ```{r}
-# Calculate 3 + 4
+# 3 + 4'ü hesapla
 3 + 4
 
-# Calculate 6 + 12
-6 + 12
+# 5 + 2'yi hesapla
+5 + 2
 ```
 
 `@sct`
 ```{r}
-test_output_contains("18", incorrect_msg = "Make sure to add `6 + 12` on a new line. Do not start the line with a `#`, otherwise your R code is not executed!")
-success_msg("Awesome! See how the console shows the result of the R code you submitted? Now that you're familiar with the interface, let's get down to R business!")
+test_output_contains("7", incorrect_msg = "Yeni bir satıra '5 + 2' eklediğinizden emin olun. Satırı bir `#` ile başlatmayın, aksi takdirde R kodunuz uygulanmaz!")
+success_msg("Müthiş! Konsolun, gönderdiğiniz R kodunun sonucunu nasıl gösterdiğine bakın. Artık arayüze aşina olduğunuza göre, R'a başlayalım!")
 ```
 
 ---
