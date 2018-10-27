@@ -33,7 +33,7 @@ Sadece örnek kodda olduğu gibi 5 ve 2 toplamını hesaplayan bir R kodu satır
 
 `@sample_code`
 ```{r}
-# 1 + 1'yi hesapla
+# 1 + 2'yi hesapla
 1 + 2
 
 # 5 + 2'yi hesapla
