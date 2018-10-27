@@ -51,7 +51,7 @@ Sadece örnek kodda olduğu gibi 5 ve 2 toplamını hesaplayan bir R kodu satır
 
 `@sct`
 ```{r}
-test_output_contains("7", incorrect_msg = "Yeni bir satıra '5 + 2' eklediğinizden emin olun. Satırı bir `#` ile başlatmayın, aksi takdirde R kodunuz uygulanmaz!")
+test_output_contains("7", incorrect_msg = "Yeni bir satıra '5 + 2' eklediğinizden emin olun. Satıra `#` ile başlatmayın, aksi takdirde R kodunuz uygulanmaz!")
 success_msg("Müthiş! Konsolun, gönderdiğiniz R kodunun sonucunu nasıl gösterdiğine bakın. Artık arayüze aşina olduğunuza göre, R'a başlayalım!")
 ```
 
