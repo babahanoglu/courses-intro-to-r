@@ -4,7 +4,7 @@ title: 'Intro to basics'
 description: 'In this chapter, you will take your first steps with R. You will learn how to use the console as a calculator and how to assign variables. You will also get to know the basic data types in R. Let''s get started!'
 ---
 
-## How it works
+## R - Datacamp arayüzü nasıl çalışıyor?
 
 ```yaml
 type: NormalExercise
@@ -13,18 +13,18 @@ xp: 100
 skills: 1
 ```
 
-In the editor on the right you should type R code to solve the exercises. When you hit the 'Submit Answer' button, every line of code is interpreted and executed by R and you get a message whether or not your code was correct. The output of your R code is shown in the console in the lower right corner.
+Sağdaki editörde egzersizleri çözmek için R kodu yazmalısınız. 'Submit Answer' düğmesine bastığınızda, her kod satırı R tarafından çalıştırılır ve kodunuzun doğru olup olmadığına dair bir mesaj alırsınız. R kodunuzun çıktısı, sağ alt köşedeki konsolda gösterilir.
 
-R makes use of the `#` sign to add comments, so that you and others can understand what the R code is about. Just like Twitter! Comments are not run as R code, so they will not influence your result. For example, _Calculate 3 + 4_ in the editor on the right is a comment.
+R'da, yorum eklemek için `#` işaretini kullanır, böylece siz ve başkaları R kodunun neyle ilgili olduğunu anlayabilirsiniz. Sadece Twitter gibi! Yorumlar, R kodu olarak çalıştırılmaz, dolayısıyla sonuçlarınızı etkilemez. Örneğin, sağdaki editörde "#Toplama: 3 ile 4'ü topla" bir yorumdur.
 
-You can also execute R commands straight in the console. This is a good way to experiment with R code, as your submission is not checked for correctness.
+R komutlarını doğrudan konsolda da çalıştırabilirsiniz. Gönderiminiz doğruluğu kontrol edilmediğinden, R kodu ile deneme yapmak için iyi bir yoldur.
 
 `@instructions`
-- In the editor on the right there is already some sample code. Can you see which lines are actual R code and which are comments?
-- Add a line of code that calculates the sum of 6 and 12, and hit the 'Submit Answer' button.
+- Sağdaki editörde zaten bazı örnek kod var. Hangi satırların gerçek R kodu olduğunu ve hangi yorumları olduğunu görebiliyor musunuz?
+- 6 ve 12 toplamını hesaplayan bir kod satırı ekleyin ve 'Cevabı Gönder' düğmesine basın.
 
 `@hint`
-Just add a line of R code that calculates the sum of 6 and 12, just like the example in the sample code!
+Sadece örnek kodda olduğu gibi 6 ve 12 toplamını hesaplayan bir R kodu satırı ekleyin!
 
 `@pre_exercise_code`
 ```{r}
